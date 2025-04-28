@@ -1,0 +1,37 @@
+footer {
+  padding: 2rem 0;
+  background-color: var(--dark-color);
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer .social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+footer .social-links a:last-child {
+  margin-right: 0;
+}
+
+footer .social-links a:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 767.98px) {
+  footer .social-links {
+    margin-top: 1rem;
+  }
+}
